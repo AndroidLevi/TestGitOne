@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_image"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/setting" />
+        <item
+            android:id="@+id/nav_resetpassword"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/reset_password" />
+        <!--<item-->
+            <!--android:id="@+id/nav_noticfation"-->
+            <!--android:icon="@drawable/ic_menu_slideshow"-->
+            <!--android:title="@string/notification" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_buy"-->
+            <!--android:icon="@drawable/ic_menu_manage"-->
+            <!--android:title="@string/buy" />-->
+        <item
+            android:id="@+id/nav_quit"
+            android:icon="@android:drawable/arrow_down_float"
+            android:title="@string/quit"/>
+    </group>
+
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="Share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Send" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>

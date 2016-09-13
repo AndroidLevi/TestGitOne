@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+    <android.support.design.widget.AppBarLayout
+    android:id="@+id/barlyout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/AppTheme.AppBarOverlay">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/userInfo_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:popupTheme="@style/AppTheme.PopupOverlay">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="@string/user_info"
+                android:layout_centerVertical="true"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/reset_user_save"
+                android:text="@string/save"
+                android:textSize="20sp"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+</android.support.design.widget.AppBarLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/backdrop">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:layout_marginBottom="12dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:textColor="@android:color/white"
+                    android:layout_width="@dimen/login_item"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="@string/user_name" />
+
+                <EditText
+                    android:id="@+id/nav_edText_username"
+                    android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/textView" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textview17"
+                    android:textColor="@android:color/white"
+                    android:layout_width="@dimen/login_item"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="@string/nav_name" />
+
+                <EditText
+                    android:id="@+id/nav_edText_name"
+                    android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/textview17"
+                    android:focusable="false" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:textColor="@android:color/white"
+                    android:layout_width="@dimen/login_item"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="@string/nav_sex" />
+
+                <RadioGroup
+                    android:id="@+id/nav_RadionButton_sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/textView18"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:textColor="@android:color/white"
+                        android:text="@string/gender_men"
+                        android:id="@+id/nav_RadionButton_man"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <RadioButton
+                        android:textColor="@android:color/white"
+                        android:text="@string/gender_women"
+                        android:id="@+id/nav_RadionButton_woman"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </RadioGroup>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textColor="@android:color/white"
+                    android:id="@+id/textView19"
+                    android:layout_width="@dimen/login_item"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="@string/nav_broth" />
+
+                <EditText
+                    android:id="@+id/nav_broth"
+                    android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/textView19"
+                    android:layout_toRightOf="@+id/textView19"
+                    android:inputType="datetime" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:textColor="@android:color/white"
+                    android:layout_width="@dimen/login_item"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="@string/nav_email" />
+
+                <EditText
+                    android:id="@+id/nav_edText_email"
+                    android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/textView20"
+                    android:layout_toRightOf="@+id/textView20"
+                    android:inputType="textEmailAddress"
+                    android:focusable="false"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/scholl_education_text"
+                    android:layout_width="@dimen/login_item"
+                    android:textColor="@android:color/white"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="@string/nav_school" />
+
+                <EditText
+                    android:id="@+id/nav_edText_school"
+                    android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/scholl_education_text"
+                    android:layout_toRightOf="@+id/scholl_education_text"
+                    android:inputType="textEmailAddress" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/grade_agelimit_text"
+                    android:textColor="@android:color/white"
+                    android:layout_width="@dimen/login_item"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="@string/nav_grade" />
+
+                <EditText
+                    android:id="@+id/nav_edText_grade"
+                    android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/grade_agelimit_text"
+                    android:layout_toRightOf="@+id/grade_agelimit_text"
+                    android:inputType="textEmailAddress" />
+            </RelativeLayout>
+
+            <!--<RelativeLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView23"-->
+
+                    <!--android:layout_width="@dimen/login_item"-->
+                    <!--android:textColor="@android:color/white"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text="@string/nav_hobby" />-->
+
+                <!--<EditText-->
+                    <!--android:id="@+id/nav_edText_hobby"-->
+                    <!--android:textColor="@android:color/white"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_alignParentTop="true"-->
+                    <!--android:layout_toEndOf="@+id/textView23"-->
+                    <!--android:layout_toRightOf="@+id/textView23"-->
+                    <!--android:inputType="textEmailAddress" />-->
+            <!--</RelativeLayout>-->
+
+            <!--<RelativeLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView24"-->
+                    <!--android:textColor="@android:color/white"-->
+                    <!--android:layout_width="@dimen/login_item"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text="@string/nav_address" />-->
+
+                <!--<EditText-->
+                    <!--android:id="@+id/nav_edText_address"-->
+                    <!--android:textColor="@android:color/white"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_alignParentTop="true"-->
+                    <!--android:layout_toEndOf="@+id/textView24"-->
+                    <!--android:layout_toRightOf="@+id/textView24"-->
+                    <!--android:inputType="textEmailAddress" />-->
+            <!--</RelativeLayout>-->
+
+            <!--<RelativeLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textview22"-->
+                    <!--android:textColor="@android:color/white"-->
+                    <!--android:layout_width="@dimen/login_item"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text="@string/nav_resetcolor" />-->
+
+                <!--<RadioGroup-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_toRightOf="@+id/textview22"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<RadioButton-->
+                        <!--android:id="@+id/nav_color_black"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:background="@android:color/black" />-->
+
+                    <!--<RadioButton-->
+                        <!--android:id="@+id/nav_color_blue"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:background="@android:color/holo_blue_bright" />-->
+
+                    <!--<RadioButton-->
+                        <!--android:id="@+id/nav_color_green"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:background="@android:color/holo_green_dark" />-->
+                <!--</RadioGroup>-->
+            <!--</RelativeLayout>-->
+
+            <!--<RelativeLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView25"-->
+                    <!--android:textColor="@android:color/white"-->
+                    <!--android:layout_width="@dimen/login_item"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text="@string/nav_subscription" />-->
+
+                <!--<EditText-->
+                    <!--android:id="@+id/nav_edText_subscription"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_alignParentTop="true"-->
+                    <!--android:layout_toEndOf="@+id/textView25"-->
+                    <!--android:layout_toRightOf="@+id/textView25"-->
+                    <!--android:inputType="textEmailAddress"-->
+                    <!--android:focusable="false"/>-->
+            <!--</RelativeLayout>-->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:textColor="@android:color/white"
+                    android:layout_width="@dimen/login_item"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="@string/nav_version" />
+
+                <EditText
+                    android:text="1.0"
+                    android:textColor="@android:color/white"
+                    android:paddingRight="10dp"
+                    android:gravity="right"
+                    android:focusable="false"
+                    android:id="@+id/nav_edText_version"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/textView26"
+                    android:layout_toRightOf="@+id/textView26"
+                    android:inputType="textEmailAddress" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:textColor="@android:color/white"
+                    android:layout_width="@dimen/login_item"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="@string/nav_use" />
+
+                <EditText
+                    android:id="@+id/nav_edText_use"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/textView27"
+                    android:layout_toRightOf="@+id/textView27"
+                    android:inputType="textEmailAddress"
+                    android:focusable="false"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:textColor="@android:color/white"
+                    android:layout_width="@dimen/login_item"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="@string/nav_declaration" />
+
+                <EditText
+                    android:id="@+id/nav_edText_declaration"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/textView28"
+                    android:layout_toRightOf="@+id/textView28"
+                    android:inputType="textEmailAddress"
+                    android:focusable="false"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:textColor="@android:color/white"
+                    android:layout_width="@dimen/login_item"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="@string/nav_idea" />
+
+                <EditText
+                    android:id="@+id/nav_edText_idea"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/textView29"
+                    android:layout_toRightOf="@+id/textView29"
+                    android:inputType="textEmailAddress"
+                    android:focusable="false"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+</LinearLayout>

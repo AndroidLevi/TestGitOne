@@ -1,0 +1,203 @@
+<resources>
+    <string name="app_name">WhenAsk</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="set_language">選擇語言</string>
+    <string name="register_login">註冊/登陸</string>
+    <string name="register">註冊</string>
+    <string name="user">現有用戶</string>
+    <string name="user_name">用户名稱</string>
+    <string name="user_real_name">真實的姓</string>
+    <string name="user_real_name2">真實的名</string>
+    <string name="password">密碼</string>
+    <string name="emailaddress">電郵地址</string>
+    <string name="iphonenumber">電話號碼</string>
+    <string name="homeaddress">住址</string>
+    <string name="is_save_password">儲存密碼</string>
+    <string name="submit">提交</string>
+    <string name="reset">重填</string>
+    <string name="identification">身份證號碼</string>
+
+    <string name="login">登入</string>
+    <string name="forget">忘記密碼</string>
+
+    <string name="please_selector">請選擇</string>
+    <string name="i_student">我是學生</string>
+    <string name="i_teacher">我是老師</string>
+
+    <string name="selectsubject">選擇教授科目</string>
+    <string name="China">中文</string>
+    <string name="English">英文</string>
+    <string name="Math">數學</string>
+    <string name="Biology">生物</string>
+    <string name="physics">物理</string>
+    <string name="chemistry">化學</string>
+    <string name="polity">政治</string>
+    <string name="history">歷史</string>
+    <string name="geography">地理</string>
+    <string name="post_photograph">拍照上傳問題</string>
+    <string name="post_record">錄音上傳問題</string>
+    <string name="post_text">文字上傳問題</string>
+
+    <string name="primary">小學</string>
+    <string name="junior_middle_school">初中</string>
+    <string name="hight_school">高中</string>
+
+    <string name="ask_question">我要發問</string>
+    <string name="ask_history">發問歷史</string>
+    <string name="ask_draft">發問草稿</string>
+
+    <string name="introduce">自我介绍</string>
+    <string name="setting">設置</string>
+    <string name="reset_password">更改密碼</string>
+    <string name="notification">通知</string>
+    <string name="buy">購買點數</string>
+    <string name="quit">退出</string>
+
+    <string name="solvequestion">解答問題</string>
+    <string name="question_history">答題歷史</string>
+    <string name="nav_sex">性别</string>
+    <string name="nav_broth">出生日期</string>
+    <string name="nav_email">電子郵箱</string>
+    <string name="nav_resetcolor">更改顏色</string>
+    <string name="nav_subscription">訂閱</string>
+    <string name="nav_version">版本</string>
+    <string name="nav_use">使用條款</string>
+    <string name="nav_declaration">使用聲明</string>
+    <string name="nav_idea">意見欄</string>
+    <string name="nav_name">姓名</string>
+    <string name="nav_school">學校</string>
+    <string name="nav_grade">年級</string>
+    <string name="nav_hobby">興趣愛好</string>
+    <string name="nav_address">地址</string>
+
+    <string name="resetpassword">更改密碼</string>
+    <string name="nowpassword">現有密碼</string>
+    <string name="newpassword">新密碼</string>
+    <string name="surepassword">確認密碼</string>
+
+    <string name="teacherintrodece">自我介紹</string>
+    <string name="gender_women">女</string>
+    <string name="gender_men">男</string>
+    <string name="user_info">個人信息</string>
+    <string name="save">保存</string>
+    <string name="complete">完成</string>
+
+    <string name="selete_subject">請選擇科目</string>
+    <string name="selete_grade">請選擇年級</string>
+    <string name="grade_1">一年級</string>
+    <string name="grade_2">二年級</string>
+    <string name="grade_3">三年級</string>
+    <string name="grade_4">四年級</string>
+    <string name="grade_5">五年級</string>
+    <string name="grade_6">六年級</string>
+    <string name="grade_7">七年級</string>
+    <string name="grade_8">八年級</string>
+    <string name="grade_9">九年級</string>
+    <string name="grade_10">高一</string>
+    <string name="grade_11">高二</string>
+    <string name="grade_12">高三</string>
+    <string name="image_null">圖片不能為空</string>
+    <string name="post_succeed">發送成功</string>
+    <string name="authcode">驗證碼</string>
+    <string name="post_twopicture">至少上傳一張證書</string>
+    <string name="save_succeed">保存成功</string>
+
+    //error
+    <string name="user_exit">用戶名或者密碼錯誤!</string>
+    <string name="sever_error">服務器錯誤</string>
+    <string name="authcodeError">驗證碼錯誤</string>
+    <string name="login_succeed">登錄成功</string>
+    <string name="history_unfinished">未完成</string>
+    <string name="history_finished">已完成</string>
+    <string name="question_detailed">問題的詳細描述</string>
+    <string name="subject">課程</string>
+    <string name="grade">年級</string>
+    <string name="time">時間</string>
+    <string name="answer">答案</string>
+    <string name="answer_notadopt">不採納</string>
+    <string name="answer_tadopt">採納</string>
+    <string name="no_question">沒有相關問題</string>
+    <string name="no_voice">沒有語音</string>
+    <string name="sure_to_solve_question">解決此問題</string>
+    <string name="sure">確定嗎</string>
+    <string name="sure_yes">是</string>
+    <string name="sure_no">否</string>
+    <string name="question_exit">該問題已被搶答</string>
+    <string name="giveup_qustion">放棄此題</string>
+    <string name="save_draft">保存至草稿</string>
+    <string name="giveup_succeed">放棄成功</string>
+    <string name="auto_login_no">自動登錄失敗</string>
+    <string name="no_tadopt_answer">確定不採納嗎？</string>
+    <string name="tadopt_answer">確定採納嗎？</string>
+    <string name="answer_succeed">回答成功</string>
+    <string name="teacher_education">學歷</string>
+    <string name="teacher_agelimit">年限</string>
+    <string name="day">天前</string>
+    <string name="hours">小時前</string>
+    <string name="minutes">分鐘前</string>
+    <string name="justnow">剛剛</string>
+    <string name="tadopt_succeed">採納成功</string>
+    <string name="notadopt_succeed">不採納成功</string>
+    <string name="auto_login_succeed">登錄成功,請選擇語言</string>
+    <string name="originpassword_error">原密碼錯誤</string>
+    <string name="get_authcode">獲取驗證碼</string>
+    <string name="getauthcode_succeed">獲取成功</string>
+    <string name="email_exit">電子郵箱不存在</string>
+    <string name="authcode_past">驗證碼過期</string>
+    <string name="change_succeed">更改成功</string>
+    <string name="username_format">a-zA-Z0-9的組合,8-20</string>
+    <string name="password_format">必須有a-zA-Z0-9的組合,8-20</string>
+    <string name="username_registed">賬號名已經被註冊</string>
+    <string name="email_registed">郵箱已經被註冊</string>
+    <string name="phone_registed">手機號已經被註冊</string>
+    <string name="id_registed">身份證已經被註冊</string>
+    <string name="username_format_error">賬號名格式錯誤</string>
+    <string name="password_format_error">密碼格式錯誤</string>
+    <string name="email_format_error">電子郵箱格式錯誤</string>
+    <string name="phone_format_error">手機號碼格式錯誤</string>
+    <string name="id_format_error">身份證號格式錯誤</string>
+    <string name="student_question_detailed">問題詳情</string>
+    <string name="rank_score">rank</string>
+    <string name="student_status">評價狀態</string>
+    <string name="no_answer_history">無回答歷史</string>
+    <string name="my_answer_history">我的回答</string>
+    <string name="student_status_yes">學生贊同</string>
+    <string name="student_status_no">學生不贊同</string>
+    <string name="student_status_assess">待學生評估</string>
+    <string name="student_question_detailed_look">問題詳情查看 ></string>
+    <string name="post_email_fail">發送郵箱失敗</string>
+    <string name="voice_no_record">語音還未錄製</string>
+    <string name="question_status_1">已發問待教師搶答</string>
+    <string name="question_status_2">已被教師搶答待回答</string>
+    <string name="question_status_3">教師已回答待回復</string>
+    <string name="question_status_4">否決答案重新待搶答</string>
+    <string name="register_succeed">註冊成功</string>
+    <string name="draft_empty">清空</string>
+    <string name="voice_limits">沒有錄音權限</string>
+    <string name="save_limits">沒有存儲權限</string>
+    <string name="sure_delete_all">刪除所有數據</string>
+    <string name="select_subject">選擇科目</string>
+
+    //new
+    <string name="sure_password_error">確認密碼錯誤</string>
+
+    <string name="record_1">大專</string>
+    <string name="record_2">本科</string>
+    <string name="record_3">碩士</string>
+    <string name="record_4">博士</string>
+    <string name="record_5">博士後</string>
+    <string name="selete_record">選擇學歷</string>
+
+    <string name="solve">解答此題</string>
+    <string name="no_solve">暫不解答</string>
+
+    <string name="no_empty">用戶名或密碼不能爲空</string>
+    <string name="no_empty_auth">驗證碼不能爲空</string>
+    <string name="no_through_certification">未通過審核認證</string>
+
+    <string name="post_question">上傳問題</string>
+</resources>

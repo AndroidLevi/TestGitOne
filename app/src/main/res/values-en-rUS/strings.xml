@@ -1,0 +1,200 @@
+<resources>
+    <string name="app_name">WhenAsk</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="set_language">Select language</string>
+    <string name="register_login">Sign Up/Sign In</string>
+    <string name="register">Sign Up</string>
+    <string name="user">Sign In</string>
+    <string name="user_name">user name</string>
+    <string name="user_real_name">surname</string>
+    <string name="user_real_name2">name</string>
+    <string name="password">password</string>
+    <string name="emailaddress">email</string>
+    <string name="iphonenumber">phone</string>
+    <string name="homeaddress">address</string>
+    <string name="is_save_password">Save PW</string>
+    <string name="submit">Submit</string>
+    <string name="reset">Reset</string>
+    <string name="identification">Id card</string>
+
+    <string name="login">Log in</string>
+    <string name="forget">Forgot PW</string>
+
+    <string name="please_selector">select</string>
+    <string name="i_student">I am student</string>
+    <string name="i_teacher">I am teacher</string>
+
+    <string name="selectsubject">Choose subject</string>
+    <string name="China">Chinese</string>
+    <string name="English">English</string>
+    <string name="Math">Math</string>
+    <string name="Biology">Biological</string>
+    <string name="physics">Physical</string>
+    <string name="chemistry">Chemical</string>
+    <string name="polity">Political</string>
+    <string name="history">History</string>
+    <string name="geography">Geographic </string>
+    <string name="post_photograph">拍照上傳問題</string>
+    <string name="post_record">錄音上傳問題</string>
+    <string name="post_text">文字上傳問題</string>
+
+    <string name="primary">Primary school</string>
+    <string name="junior_middle_school">junior high</string>
+    <string name="hight_school">senior high</string>
+
+    <string name="ask_question">Ask</string>
+    <string name="ask_history">History</string>
+    <string name="ask_draft">Draft</string>
+
+    <string name="setting">Set</string>
+    <string name="reset_password">Change PW</string>
+    <string name="notification">notice</string>
+    <string name="buy">Buying points</string>
+    <string name="quit">exit</string>
+
+    <string name="solvequestion">Answer</string>
+    <string name="question_history">History</string>
+    <string name="nav_sex">gender</string>
+    <string name="nav_broth">Date of birth</string>
+    <string name="nav_name">name</string>
+    <string name="nav_email">email</string>
+    <string name="nav_school">school</string>
+    <string name="nav_grade">grade</string>
+    <string name="nav_resetcolor">Change the color</string>
+    <string name="nav_subscription">subscribe </string>
+    <string name="nav_version">version</string>
+    <string name="nav_use">Terms of use</string>
+    <string name="nav_declaration">Use the statement</string>
+    <string name="nav_idea">Comments below</string>
+
+    <string name="resetpassword">Change PW</string>
+    <string name="nowpassword">Password</string>
+    <string name="newpassword">New PW</string>
+    <string name="surepassword">Confirm</string>
+
+    <string name="teacherintrodece">introduce myself</string>
+    <string name="gender_women">female</string>
+    <string name="gender_men">male</string>
+    <string name="user_info">Personal information</string>
+    <string name="save">save</string>
+    <string name="complete">complete</string>
+
+    <string name="selete_subject">Please select a subject</string>
+    <string name="selete_grade">Please select a grade</string>
+    <string name="grade_1">P.1</string>
+    <string name="grade_2">P.2</string>
+    <string name="grade_3">P.3</string>
+    <string name="grade_4">P.4</string>
+    <string name="grade_5">P.5</string>
+    <string name="grade_6">P.6</string>
+    <string name="grade_7">F.1</string>
+    <string name="grade_8">F.2</string>
+    <string name="grade_9">F.3</string>
+    <string name="grade_10">F.4</string>
+    <string name="grade_11">F.5</string>
+    <string name="grade_12">F.6</string>
+    <string name="image_null">Picture no empty</string>
+    <string name="post_succeed">Send success</string>
+    <string name="authcode">Captcha</string>
+    <string name="post_twopicture">Upload a certificate at least</string>
+    <string name="save_succeed">Save success</string>
+
+    //error
+    <string name="user_exit">name or password error!</string>
+    <string name="sever_error">Server error</string>
+    <string name="authcodeError">Captcha error</string>
+    <string name="login_succeed">Login success</string>
+    <string name="history_unfinished">Unfinished</string>
+    <string name="history_finished">Finished</string>
+    <string name="question_detailed">Question detailed description</string>
+    <string name="subject">Subject</string>
+    <string name="grade">Grade</string>
+    <string name="time">Time</string>
+    <string name="answer">Answer</string>
+    <string name="answer_notadopt">Not accept</string>
+    <string name="answer_tadopt">Accept</string>
+    <string name="no_question">No Question</string>
+    <string name="no_voice">No voice</string>
+    <string name="sure_to_solve_question">solve problem</string>
+    <string name="sure">Are you sure</string>
+    <string name="sure_yes">Yes</string>
+    <string name="sure_no">No</string>
+    <string name="question_exit">Question no exist</string>
+    <string name="giveup_qustion">Give up question</string>
+    <string name="save_draft">Save to draft</string>
+    <string name="giveup_succeed">Give up success</string>
+    <string name="auto_login_no">Automatic login failed</string>
+    <string name="no_tadopt_answer">Sure does not accept？</string>
+    <string name="tadopt_answer">Sure does accept？</string>
+    <string name="answer_succeed">Answer success</string>
+    <string name="teacher_education">Record</string>
+    <string name="teacher_agelimit">WorkLong</string>
+    <string name="day">days ago</string>
+    <string name="hours">hours ago</string>
+    <string name="minutes">minutes ago</string>
+    <string name="justnow">Just</string>
+    <string name="tadopt_succeed">Accept success</string>
+    <string name="notadopt_succeed">Not accept success</string>
+    <string name="auto_login_succeed">Login success,Select language</string>
+    <string name="originpassword_error">Original password error</string>
+    <string name="get_authcode">Get Captcha</string>
+    <string name="getauthcode_succeed">Get success</string>
+    <string name="email_exit">Email not exist</string>
+    <string name="authcode_past">Captcha overdue</string>
+    <string name="change_succeed">Change success</string>
+    <string name="username_format">a-zA-Z0-9 combination,8-20</string>
+    <string name="password_format">must a-zA-Z0-9 combination,8-20</string>
+    <string name="username_registed">Name exist</string>
+    <string name="email_registed">Email exist</string>
+    <string name="phone_registed">Phone exist</string>
+    <string name="id_registed">Id card exist</string>
+    <string name="username_format_error">Name format error</string>
+    <string name="password_format_error">Password format error</string>
+    <string name="email_format_error">Email format error</string>
+    <string name="phone_format_error">phone format error</string>
+    <string name="id_format_error">Id card format error</string>
+    <string name="student_question_detailed">Question Details</string>
+    <string name="rank_score">rank</string>
+    <string name="student_status">Evaluation state</string>
+    <string name="no_answer_history">No answer history</string>
+    <string name="my_answer_history">My answer</string>
+    <string name="student_status_yes">agreed</string>
+    <string name="student_status_no">no agree</string>
+    <string name="student_status_assess">assess</string>
+    <string name="student_question_detailed_look">See question details ></string>
+    <string name="post_email_fail">Send mail failed</string>
+    <string name="voice_no_record">No voice</string>
+    <string name="question_status_1">wait answer</string>
+    <string name="question_status_2">wait answer</string>
+    <string name="question_status_3">wait response</string>
+    <string name="question_status_4">wait answer</string>
+    <string name="register_succeed">Register success</string>
+    <string name="draft_empty">Empty</string>
+    <string name="voice_limits">No Recording permission</string>
+    <string name="save_limits">No store permissions</string>
+    <string name="sure_delete_all">Delete all data</string>
+    <string name="select_subject">Choose subject</string>
+
+    //new
+    <string name="sure_password_error">Confirm password error</string>
+
+    <string name="record_1">College</string>
+    <string name="record_2">Undergraduate course</string>
+    <string name="record_3">Master degree</string>
+    <string name="record_4">Dr.</string>
+    <string name="record_5">Post doctoral</string>
+    <string name="selete_record">Choose academic</string>
+
+    <string name="solve">Answer</string>
+    <string name="no_solve">No answer</string>
+
+    <string name="no_empty">Name or password no empty</string>
+    <string name="no_empty_auth">Captcha no empty</string>
+    <string name="no_through_certification">No through certification</string>
+
+    <string name="post_question">Upload</string>
+</resources>

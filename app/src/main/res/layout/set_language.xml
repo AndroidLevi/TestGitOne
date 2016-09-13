@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/backdrop">
+
+    <Button
+        android:id="@+id/familiarBtn"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:background="#00000000"
+        android:text="简"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/whitebackground"
+        android:layout_width="3dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/whitebackground2"
+        android:layout_alignTop="@+id/whitebackground2"
+        android:layout_marginLeft="6dp"
+        android:layout_toLeftOf="@+id/familiarBtn"
+        android:layout_toStartOf="@+id/familiarBtn"
+        android:background="@android:color/white"
+        android:text="|"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/complexBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/familiarBtn"
+        android:layout_toLeftOf="@+id/whitebackground"
+        android:layout_toStartOf="@+id/whitebackground"
+        android:background="@android:color/transparent"
+        android:gravity="center_vertical|right"
+        android:text="繁"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/whitebackground2"
+        android:layout_width="3dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/familiarBtn"
+        android:layout_alignTop="@+id/familiarBtn"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_toEndOf="@+id/familiarBtn"
+        android:layout_toRightOf="@+id/familiarBtn"
+        android:background="@android:color/white"
+        android:text="|"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/englishBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/complexBtn"
+        android:layout_marginLeft="6dp"
+        android:layout_toEndOf="@+id/whitebackground2"
+        android:layout_toRightOf="@+id/whitebackground2"
+        android:background="#00000000"
+        android:gravity="center_vertical|left"
+        android:text="ENG"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@mipmap/logo" />
+</RelativeLayout>

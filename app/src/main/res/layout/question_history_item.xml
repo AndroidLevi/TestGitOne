@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_item"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+    app:cardBackgroundColor="@android:color/transparent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@mipmap/ellipse">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4">
+
+            <TextView
+                android:id="@+id/question_item_subject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:text="@string/Math"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/question_item_delete"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/question_item_collect"
+                android:background="@mipmap/delete"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/question_item_collect"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/star2"
+                android:visibility="gone"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/student_status"
+                android:textSize="15sp"
+                android:textColor="@android:color/holo_red_light"
+                android:id="@+id/question_item_status"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <!--<ImageView-->
+                <!--android:id="@+id/question_item_image"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_margin="5dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@mipmap/logo" />-->
+            <com.facebook.drawee.view.SimpleDraweeView
+                xmlns:fresco="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/question_item_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                fresco:actualImageScaleType="fitXY"
+                fresco:placeholderImage="@android:color/white"
+                fresco:placeholderImageScaleType="fitXY"
+                fresco:progressBarImage="@mipmap/progresssbar"
+                fresco:progressBarImageScaleType="fitCenter"
+                fresco:progressBarAutoRotateInterval="1000"/>
+            <TextView
+                android:id="@+id/question_item_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:text="我问你，你是一个问题好不好啊！！！！！！！！！！！！！！！！！！！！！！！！！！"
+                android:scrollbars="vertical"
+                android:singleLine="false"
+                android:ellipsize="end"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

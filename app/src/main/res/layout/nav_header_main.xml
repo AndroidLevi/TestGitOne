@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@mipmap/side_backdrop_h"
+    android:clickable="true">
+    <!--<com.zun1.whenask.ToolsClass.CircleImageView-->
+        <!--android:id="@+id/imageView"-->
+        <!--android:layout_width="80dp"-->
+        <!--android:layout_height="80dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:clickable="true"-->
+        <!--android:src="@mipmap/logo"-->
+        <!--app:civ_border_width="1dp"-->
+        <!--app:civ_border_color="@android:color/white">-->
+    <!--</com.zun1.whenask.ToolsClass.CircleImageView>-->
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/imageView"
+        android:clickable="true"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        fresco:roundAsCircle="true"
+        fresco:roundingBorderColor="@android:color/white"
+        fresco:roundingBorderWidth="1dp"
+        fresco:placeholderImage="@mipmap/logo"
+        fresco:placeholderImageScaleType="fitXY" />
+    <ImageView
+        android:id="@+id/genderIma"
+        android:background="@mipmap/side_man"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/head_nickname"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:id="@+id/head_nickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:text="@string/user_name"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_below="@+id/imageView"/>
+</RelativeLayout>

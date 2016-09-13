@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.activity.MainActivity"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="46dp"
+        android:id="@+id/login"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/logo"/>
+
+    <Button
+        android:layout_alignLeft="@+id/login"
+        android:layout_alignRight="@+id/login"
+        android:text="@string/ask_question"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:id="@+id/ask_question"
+        android:background="@mipmap/pencil"
+        android:textSize="20sp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:text="@string/ask_history"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/ask_question"
+        android:layout_alignLeft="@+id/ask_question"
+        android:layout_alignRight="@+id/ask_question"
+        android:layout_marginTop="32dp"
+        android:id="@+id/ask_history"
+        android:background="@mipmap/book"
+        android:textSize="20sp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:text="@string/ask_draft"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/ask_history"
+        android:layout_alignLeft="@+id/ask_history"
+        android:layout_alignRight="@+id/ask_history"
+        android:layout_marginTop="36dp"
+        android:id="@+id/ask_draft"
+        android:background="@mipmap/book2"
+        android:textSize="20sp"
+        android:textAllCaps="false"/>
+</RelativeLayout>
